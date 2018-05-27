@@ -46,9 +46,10 @@ namespace P03_SimpleWebServer
 
                 Console.WriteLine(clientMessage.Trim('\0'));
 
-                var responseMessage = "HTTP / 1.1 200 OK\nContent - Type: text / plain\n\nWe shall meet in the place where there is no darkness.";
+                var responseMessageChrome = "HTTP / 1.1 200 OK\nContent - Type: text / plain\n\nWe shall meet in the place where there is no darkness.";
+                var responseMessageFireFox = "We shall meet in the place where there is no darkness.";
 
-                var data = Encoding.ASCII.GetBytes(responseMessage);
+                var data = Encoding.ASCII.GetBytes(responseMessageFireFox);
 
                 client.GetStream().Write(data, 0, data.Length);
 

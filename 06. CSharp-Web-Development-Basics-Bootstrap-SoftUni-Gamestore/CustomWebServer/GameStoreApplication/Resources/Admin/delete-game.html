@@ -1,0 +1,65 @@
+﻿<main class="col-4 ml-auto mr-auto text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="text-center"><h1 class="display-3">Delete Game - {{{title}}}</h1></div>
+                <br />
+                <form method="post">
+                    <div class="form-group row">
+                        <label class="form-control-label">Title</label>
+                        <div class="input-group">
+                            <span class="input-group-text" style="min-width: 470px; max-width: 470px">{{{title}}}</span>
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label class="form-control-label">Description</label>
+                        <textarea class="input-group-text" style="min-width: 470px; max-width: 470px;">{{{description}}}</textarea>
+                    </div>
+                    <div class="form-group row">
+                        <label class="form-control-label">Thumbnail</label>
+                        <div class="input-group">
+                            <div>
+                                <span class="input-group-text" style="display:block;text-overflow: ellipsis; min-width: 430px; max-width: 470px;overflow: hidden; white-space: nowrap;">
+                                    {{{thumbnail}}}
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="form-control-label">Size</label>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" style="min-width: 430px;">{{{size}}}</span>
+
+                                <div class="input-group-append">
+                                    <span class="input-group-text">GB</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="form-control-label">YouTube Video URL</label>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" style="min-width: 200px;">https://www.youtube.com/watch?v=</span>
+                                <div class="input-group-append">
+                                    <span class="input-group-text" style="min-width: 195px;">{{{trailer}}}</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="form-control-label">Release Date</label>
+                        <div class="input-group">
+                            <span class="input-group-text" style="min-width: 475px;">{{{release-date}}}</span>
+                        </div>
+                    </div>
+                    <input type="submit" id="btn-add-game" class="btn btn-outline-danger btn-lg btn-block"
+                           value="Delete Game" />
+                </form>
+                <br />
+            </div>
+        </div>
+    </div>
+</main>

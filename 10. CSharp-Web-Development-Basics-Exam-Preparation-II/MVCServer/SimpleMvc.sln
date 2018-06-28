@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebServer", "WebServer\WebServer.csproj", "{72911109-BEDB-43A3-9747-05BE33389BD1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleMvc.Framework", "SimpleMvc.Framework\SimpleMvc.Framework.csproj", "{A6568A68-AD6B-4E98-8C1E-EBFDDADE99FF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleMvc.Framework.Tests", "SimpleMvc.Framework.Tests\SimpleMvc.Framework.Tests.csproj", "{160FB83B-1C5C-4E68-87B1-C3776E53BD6D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleMvc.Common", "SimpleMvc.Common\SimpleMvc.Common.csproj", "{97E8CA85-D94A-4F7A-BE26-9E7D421D0899}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeTube.App", "MeTube.App\MeTube.App.csproj", "{C3A21630-489B-4476-9F24-4970437C2739}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeTube.Data", "MeTube.Data\MeTube.Data.csproj", "{EE076B8E-7868-4AEF-9890-44FC250E1BB8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeTube.Models", "MeTube.Models\MeTube.Models.csproj", "{F479F55B-4A44-4E81-B78E-B2FEFD46AC22}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72911109-BEDB-43A3-9747-05BE33389BD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72911109-BEDB-43A3-9747-05BE33389BD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72911109-BEDB-43A3-9747-05BE33389BD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72911109-BEDB-43A3-9747-05BE33389BD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6568A68-AD6B-4E98-8C1E-EBFDDADE99FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6568A68-AD6B-4E98-8C1E-EBFDDADE99FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6568A68-AD6B-4E98-8C1E-EBFDDADE99FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6568A68-AD6B-4E98-8C1E-EBFDDADE99FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{160FB83B-1C5C-4E68-87B1-C3776E53BD6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{160FB83B-1C5C-4E68-87B1-C3776E53BD6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{160FB83B-1C5C-4E68-87B1-C3776E53BD6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{160FB83B-1C5C-4E68-87B1-C3776E53BD6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97E8CA85-D94A-4F7A-BE26-9E7D421D0899}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97E8CA85-D94A-4F7A-BE26-9E7D421D0899}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97E8CA85-D94A-4F7A-BE26-9E7D421D0899}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97E8CA85-D94A-4F7A-BE26-9E7D421D0899}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3A21630-489B-4476-9F24-4970437C2739}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3A21630-489B-4476-9F24-4970437C2739}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3A21630-489B-4476-9F24-4970437C2739}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3A21630-489B-4476-9F24-4970437C2739}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE076B8E-7868-4AEF-9890-44FC250E1BB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE076B8E-7868-4AEF-9890-44FC250E1BB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE076B8E-7868-4AEF-9890-44FC250E1BB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE076B8E-7868-4AEF-9890-44FC250E1BB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F479F55B-4A44-4E81-B78E-B2FEFD46AC22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F479F55B-4A44-4E81-B78E-B2FEFD46AC22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F479F55B-4A44-4E81-B78E-B2FEFD46AC22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F479F55B-4A44-4E81-B78E-B2FEFD46AC22}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3ABA898C-743A-4BCB-94FE-871C34896B4B}
+	EndGlobalSection
+EndGlobal

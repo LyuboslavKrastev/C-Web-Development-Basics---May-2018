@@ -1,4 +1,4 @@
-﻿using MeTube.App.Attributes;
+using MeTube.App.Attributes;
 using MeTube.App.Models.BindingModels;
 using MeTube.App.Models.ViewModels;
 using MeTube.Models;
@@ -62,7 +62,7 @@ namespace MeTube.App.Controllers
 
                 if (tube == null)
                 {
-                    this.Model.Data["error"] = "The requested video does not exist";
+                    this.Model.Data["error"] = string.Format(ErrorBox, "The requested video does not exist");
                     return this.RedirectToAction("/home/index");
                 }
 

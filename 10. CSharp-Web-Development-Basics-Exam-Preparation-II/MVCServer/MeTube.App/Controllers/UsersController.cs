@@ -1,4 +1,4 @@
-﻿using MeTube.App.Attributes;
+using MeTube.App.Attributes;
 using MeTube.App.Models.BindingModels;
 using MeTube.App.Models.ViewModels;
 using MeTube.Models;
@@ -51,12 +51,12 @@ namespace MeTube.App.Controllers
             {
                 if (this.Context.Users.Any(u => u.Username == user.Username))
                 {
-                    this.Model.Data["error"] = "Username already taken";
+                    this.Model.Data["error"] = string.Format(ErrorBox, "Username already taken");
                     return this.View();
                 }
                 if (this.Context.Users.Any(u => u.Email == user.Email))
                 {
-                    this.Model.Data["error"] = "Email already taken";
+                    this.Model.Data["error"] = string.Format(ErrorBox, "Email already taken");
                     return this.View();
                 }
                 this.Context.Users.Add(user);
@@ -101,7 +101,7 @@ namespace MeTube.App.Controllers
 
             if (user == null)
             {
-                this.Model.Data["error"] = "Invalid username or password.";
+                this.Model.Data["error"] = string.Format(ErrorBox, "Invalid username or password.");
                 return this.View();
             }
 
@@ -109,7 +109,7 @@ namespace MeTube.App.Controllers
 
             if (user.PasswordHash != passwordHash)
             {
-                this.BuildErrorView();
+                this.Model.Data["error"] = string.Format(ErrorBox, "Invalid username or password.");
                 return this.View();
             }
 

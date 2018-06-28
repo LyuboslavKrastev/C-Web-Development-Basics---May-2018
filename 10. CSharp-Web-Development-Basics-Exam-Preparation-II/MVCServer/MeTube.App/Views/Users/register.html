@@ -1,11 +1,13 @@
-﻿<div class="text-center mb-3">
+<div class="text-center mb-3">
     <h1>Register</h1>
 </div>
 <hr class="my-2">
 <div class="container-fluid">
     <div class="row justify-content-center">
+        {{{error}}}
+    </div>
+    <div class="row justify-content-center">
         <div class="form-holder text-center">
-            {{{error}}}
             <form class="form-inline" action="/users/register" method="POST">
                 <fieldset>
                     <div class="control-group">

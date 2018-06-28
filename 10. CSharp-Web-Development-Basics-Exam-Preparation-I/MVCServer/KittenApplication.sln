@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebServer", "WebServer\WebServer.csproj", "{72911109-BEDB-43A3-9747-05BE33389BD1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleMvc.Framework", "SimpleMvc.Framework\SimpleMvc.Framework.csproj", "{A6568A68-AD6B-4E98-8C1E-EBFDDADE99FF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleMvc.Common", "SimpleMvc.Common\SimpleMvc.Common.csproj", "{97E8CA85-D94A-4F7A-BE26-9E7D421D0899}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KittenApp.Data", "KittenApp.Data\KittenApp.Data.csproj", "{DC6B6FA9-7A2C-41AD-8B3F-AD9E7A358395}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KittenApp.App", "KittenApp.App\KittenApp.App.csproj", "{EDEBA589-400B-42F5-8EF7-F4536AB366B2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KittenApp.Models", "KittenApp.Models\KittenApp.Models.csproj", "{7FE84F5B-CEAA-41B8-A6C9-03275AE6A654}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72911109-BEDB-43A3-9747-05BE33389BD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72911109-BEDB-43A3-9747-05BE33389BD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72911109-BEDB-43A3-9747-05BE33389BD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72911109-BEDB-43A3-9747-05BE33389BD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6568A68-AD6B-4E98-8C1E-EBFDDADE99FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6568A68-AD6B-4E98-8C1E-EBFDDADE99FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6568A68-AD6B-4E98-8C1E-EBFDDADE99FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6568A68-AD6B-4E98-8C1E-EBFDDADE99FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97E8CA85-D94A-4F7A-BE26-9E7D421D0899}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97E8CA85-D94A-4F7A-BE26-9E7D421D0899}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97E8CA85-D94A-4F7A-BE26-9E7D421D0899}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97E8CA85-D94A-4F7A-BE26-9E7D421D0899}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC6B6FA9-7A2C-41AD-8B3F-AD9E7A358395}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC6B6FA9-7A2C-41AD-8B3F-AD9E7A358395}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC6B6FA9-7A2C-41AD-8B3F-AD9E7A358395}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC6B6FA9-7A2C-41AD-8B3F-AD9E7A358395}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDEBA589-400B-42F5-8EF7-F4536AB366B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDEBA589-400B-42F5-8EF7-F4536AB366B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDEBA589-400B-42F5-8EF7-F4536AB366B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDEBA589-400B-42F5-8EF7-F4536AB366B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FE84F5B-CEAA-41B8-A6C9-03275AE6A654}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FE84F5B-CEAA-41B8-A6C9-03275AE6A654}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FE84F5B-CEAA-41B8-A6C9-03275AE6A654}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FE84F5B-CEAA-41B8-A6C9-03275AE6A654}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3ABA898C-743A-4BCB-94FE-871C34896B4B}
+	EndGlobalSection
+EndGlobal

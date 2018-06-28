@@ -1,4 +1,4 @@
-﻿using MeTube.Data;
+using MeTube.Data;
 using MeTube.Models;
 using SimpleMvc.Framework.Controllers;
 using SimpleMvc.Framework.Interfaces;
@@ -10,6 +10,10 @@ namespace MeTube.App.Controllers
 {
     public class BaseController : Controller
     {
+        protected const string ErrorBox = @"<div class=""alert alert-danger"">
+                 <strong>{0}</strong>
+                    </div>";
+
         private const string AuthenticatedMenu =
                   @"<li class=""nav-item active col-md-3"">
                       <a class=""nav-link h5"" href=""/"">Home</a>
@@ -51,7 +55,9 @@ namespace MeTube.App.Controllers
 
         protected virtual void BuildErrorView()
         {
-            this.Model.Data["error"] = this.ParameterValidator.ModelErrors.Values.Select(v => v.First()).First().ToString();
+            string error = this.ParameterValidator.ModelErrors.Values.Select(v => v.First()).First().ToString();
+            this.Model.Data["error"] = string.Format(ErrorBox, error);
+
         }
 
         public override void OnAuthentication()
@@ -61,7 +67,6 @@ namespace MeTube.App.Controllers
 
             if (this.User.IsAuthenticated)
             {
-
                 this.DbUser = this.Context.Users.FirstOrDefault(u => u.Username == this.User.Name);
             }
 

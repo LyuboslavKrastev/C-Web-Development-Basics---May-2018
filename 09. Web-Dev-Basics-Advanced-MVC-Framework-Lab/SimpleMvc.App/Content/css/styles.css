@@ -1,0 +1,25 @@
+main.container-fluid {
+    max-width: 80%;
+}
+
+.bg-color-dark {
+    background-color: #6B8E23;
+    color: #A9A9A9;
+}
+
+.footer {
+    background-color: #6B8E23;
+    color: #A9A9A9;
+}
+
+.nav-item > a:hover, .navbar-brand:hover {
+    color: #FFFFFF;
+}
+
+navbarSupportedContent {
+    overflow: hidden;
+}
+
+.nav-link{
+    white-space:nowrap;
+}

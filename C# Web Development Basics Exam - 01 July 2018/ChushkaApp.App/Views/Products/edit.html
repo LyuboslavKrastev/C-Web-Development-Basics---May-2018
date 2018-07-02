@@ -1,0 +1,63 @@
+﻿<div class="text-center mb-3">
+    <h1>Create Product</h1>
+</div>
+<hr class="my-2">
+<div class="container-fluid">
+    <div class="row justify-content-center">
+        {{{error}}}
+    </div>
+    <div class="row justify-content-center">
+        <div class="form-holder text-center">
+            <form class="form-inline" action="/products/edit?id={{{productId}}}" method="POST">
+                <fieldset>
+                    <div class="control-group">
+                        <label class="control-label h3 mb-2" for="Title">Name</label>
+                        <div class="controls">
+                            <input type="text" id="Name" name="Name" placeholder="{{{name}}}" class="input-xlarge value">
+                        </div>
+                    </div>
+                    <br />
+                    <div class="control-group">
+
+                        <label class="control-label h3 mb-2" for="Price">Price</label>
+                        <div class="controls">
+                            <input required type="number" name="Price" step="0.01" min="0" class="form-control" placeholder="{{{price}}}" />
+                        </div>
+                    </div>
+                    <br />
+                    <br />
+                    <div class="control-group">
+                        <label class="control-label h3 mb-2" for="Description">Description</label>
+                        <div class="controls">
+                            <textarea type="text" id="Description" name="Description" placeholder="{{{description}}}" class="input-xlarge"></textarea>
+                        </div>
+                    </div>
+                    <br />
+                    <h3 class="text-center">Product Type</h3>
+                    <hr class="hr-2 bg-dark" />
+                    <div>
+                        <label class="radio-inline">
+                            <input type="radio" name="Type" value="Food">Food
+                        </label>
+                        <label class="radio-inline">
+                            <input type="radio" name="Type" value="Domestic">Domestic
+                        </label>
+                        <label class="radio-inline">
+                            <input type="radio" name="Type" value="Health">Health
+                        </label>
+                        <label class="radio-inline">
+                            <input type="radio" name="Type" value="Cosmetic">Cosmetic
+                        </label>
+                        <label class="radio-inline">
+                            <input type="radio" name="Type" value="Other">Other
+                        </label>
+                    </div>
+                    <hr class="hr-2 bg-dark" />
+                    <div class="button-holder d-flex justify-content-center">
+                        <button type="submit" class="btn chushka-bg-color">Edit</button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</div>
